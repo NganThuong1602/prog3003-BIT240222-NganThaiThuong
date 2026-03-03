@@ -1,0 +1,3 @@
+com\example\studentgenericapp\model\Student.class
+com\example\studentgenericapp\manager\StudentManager.class
+com\example\studentgenericapp\MainApp.class
