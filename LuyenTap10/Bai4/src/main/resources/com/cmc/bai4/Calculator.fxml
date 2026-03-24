@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox spacing="10" styleClass="root" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cmc.bai4.CalculatorController">
+<VBox spacing="10" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cmc.bai4.CalculatorController">
 
     <padding>
         <Insets bottom="12" left="12" right="12" top="12" />
@@ -27,7 +27,7 @@
             <ColumnConstraints percentWidth="25" />
         </columnConstraints>
 
-        <Button onAction="#handlePercent" styleClass="function-btn" text="\%%" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Button onAction="#handlePercent" styleClass="function-btn" text="\%" GridPane.columnIndex="0" GridPane.rowIndex="0" />
         <Button onAction="#handleDelete" styleClass="function-btn" text="Xoá" GridPane.columnIndex="2" GridPane.rowIndex="0" />
         <Button onAction="#handleClear" styleClass="function-btn" text="C" GridPane.columnIndex="1" GridPane.rowIndex="0" />
         <Button onAction="#handleOperator" styleClass="operator-btn" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="0" />
